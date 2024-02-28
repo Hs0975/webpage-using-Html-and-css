@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virat Kohli</title>
+  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Montserrat:wght@300;400&family=Poppins:wght@400;700&family=Raleway&family=Ubuntu&family=Varela+Round&display=swap');
+
+        * {
+            box-sizing: border-box;
+            
+        }
+
+        #main-div {
+            background-image: url("https://i.pinimg.com/564x/74/af/b4/74afb44f9fa435649c62b3bbb4a2765d.jpg");
+            background-repeat: no-repeat ;
+            background-size: cover;
+            font-family: 'Ubuntu', sans-serif;
+            color: rgb(250, 218, 218);
+           
+        }
+        #marquee{
+            height: 40px;
+            background-color: rgb(34, 169, 111);
+            color: rgb(252, 228, 229);
+            font-size: 30px;
+            
+        }
+        #marquee:hover{
+font-size: 35px;
+        }
+        .header {
+
+            width: 100%;
+            min-height: 50px;
+            background-color: rgb(19, 19, 20);
+            padding: 15px;
+        }
+
+
+        #content {
+            width: 100%;
+            height: 850px;
+            padding-right: 20px;
+
+
+        }
+
+
+        #main {
+            margin: 10px;
+            color: white;
+
+        }
+
+        #main:hover {
+            font-size: 18px;
+            background-color: rgb(174, 9, 31);
+
+        }
+
+        #about {
+            margin: 10px;
+            color: white;
+
+        }
+
+
+        #about:hover {
+            font-size: 18px;
+            background-color: rgb(174, 9, 31);
+
+        }
+
+        #login {
+            margin: 10px;
+            color: white;
+
+        }
+
+
+        #login:hover {
+            font-size: 18px;
+            background-color: rgb(174, 9, 31);
+
+        }
+
+        #tabl {
+
+            border: 2px solid rgb(14, 13, 12);
+            height: 890px;
+            width: 30%;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+
+        #vk1 {
+            width: 60%;
+            min-height: 700px;
+            float: right;
+
+
+        }
+
+        .point {
+            height: 30px;
+            background-color: rgb(227, 109, 41);
+            text-align: center;
+            padding: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+
+        }
+        
+        .point:hover{
+            font-size: larger;
+            background-color: brown;
+        }
+
+        #tablee {
+            padding-left: 30px;
+        }
+
+        #pic1 {
+            display: flex;
+            height: 300px;
+            width: 350px;
+            padding-left: 100px;
+            padding-top: 20px;
+
+
+        }
+
+        .h1 {
+            text-align: center;
+
+        }
+
+        .tablee2 {
+            border: 3px double rgb(244, 69, 69);
+            height: 970px;
+            width: 380px;
+            margin-left: 50px;
+            margin-top: 750px;
+            padding-top: 20px;
+
+        }
+
+        #vk3 {
+            height: 30px;
+            background-color: rgb(247, 96, 96);
+            text-align: center;
+            padding: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+
+        }
+
+        .abb {
+            height: 30px;
+            background-color: rgb(253, 95, 47);
+            text-align: center;
+            padding: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+
+        }
+        .abb:hover{
+            font-size: large;
+            background-color: brown;
+        }
+
+        #pict {
+            height: 500px;
+            margin-left: 300px;
+            border: 2px solid rgb(14, 13, 12)
+        }
+
+        #vh {
+            height: 50px;
+            width: 100%;
+            background-color: aquamarine;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding: 5px;
+            color: rgb(241, 82, 82);
+
+        }
+
+        #vh:hover {
+            font-size: 35px;
+            background-color: rgb(225, 187, 61);
+        }
+
+        #ipl table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding-left: 7px;
+        }
+
+        #picture {
+            height: 340px;
+            width: 340px;
+            padding: 20px;
+
+        }
+
+        .inter {
+            text-align: center;
+        }
+
+        #abcs {
+            padding-left: 150px;
+        }
+
+        #pix1 {
+            float: left;
+            min-height: 300px;
+            width: 300px;
+            margin-top: 400px;
+            border: 2px solid rgb(12, 12, 12);
+            margin-left: 50px;
+
+        }
+
+        #foot {
+            
+            display: flex;
+            justify-content: center;
+            background-color: rgb(34, 29, 24);
+            color: rgb(58, 30, 235);
+            height: 150px;
+            font-family: monospace;
+            font-size: larger;
+            font-weight: bold;   
+            
+        }
+
+
+        .links {
+            color: white;
+        }
+
+        #early {
+            font-size: 30px;
+            background-color: crimson;
+            text-align: center;
+        }
+        #early:hover{
+            font-size: 32px;
+            background-color: rgb(245, 33, 33);
+        }
+
+
+        #carrer {
+            font-size: 30px;
+            background-color: crimson;
+            text-align: center;
+        }
+
+        #carrer:hover{
+            font-size: 32px;
+            background-color: rgb(245, 33, 33);
+        }
+
+        #franc {
+            font-size: 30px;
+            background-color: crimson;
+            text-align: center;
+        }
+        #franc:hover{
+            font-size: 32px;
+            background-color: rgb(245, 33, 33);
+        }
+
+        #youth {
+            font-size: 30px;
+            background-color: crimson;
+            text-align: center;
+        }
+
+        #youth:hover{
+            font-size: 32px;
+            background-color: rgb(245, 33, 33);
+        }
+
+        .subhead {
+            font-size: 25px;
+            background-color: coral;
+            width: 50%;
+            text-align: center;
+        }
+
+        .subhead:hover {
+            font-size: 28px;
+            background-color: chocolate;
+        }
+        #home {
+            height: 30px;
+           
+            text-align: center;
+            margin-top: 300px;
+        }
+
+        #butt {
+            border: 2px solid rgb(19, 16, 16);
+            background-color: rgb(244, 53, 91);
+            color: #151212;
+            font-weight: bolder;
+            padding: 10px;
+            border-radius: 4px;
+            margin-left: 10px;
+            padding-top: 20px;
+            
+        }
+        #butt:hover {
+            font-size: large;
+            background-color: rgb(86, 241, 115);
+        }
+    </style>
+</head>
+
+<body id="main-div">
+    <div>
+        <div class="container-fluid">
+            <header class="header">
+                <span id="main">main menu</span>
+                <span id="about">aboutus</span>
+                <span id="login">login</span>
+            </header>
+            <div>
+            <marquee id="marquee" direction="right">Tribute Page</marquee>    
+            </div>
+
+            <div id="content">
+                <div>
+                    <h1 id="vh">virat Kohli</h1>
+
+                </div>
+                <div id="vk1">
+
+                    <p>Virat Kohli ( born 5 November 1988) is an Indian
+                        international
+                        cricketer and the former captain of the Indian national cricket team who plays for Royal
+                        Challengers
+                        Bangalore in the IPL and Delhi in domestic cricket. Considered to be one of the best cricketers
+                        in
+                        the
+                        world, he is widely regarded as one of the greatest batsmen in the history of the sport.[4]
+                        Nicknamed
+                        "The King", due to his dominant style of play and popularity, Kohli holds numerous records in
+                        his
+                        career
+                        across all formats. In 2020, the International Cricket Council named him the male cricketer of
+                        the
+                        decade. Kohli has also contributed to India's successes, captaining the team from 2014 to 2022,
+                        and
+                        winning the 2011 World Cup and the 2013 Champions trophy. He is among the only four Indian
+                        cricketers
+                        who have played over 500 matches for India.[5]</p>
+                    <p>Born and raised in New Delhi, Kohli trained at the West Delhi Cricket Academy and started his
+                        youth
+                        career with the Delhi Under-15 team. He made his international debut in 2008 and quickly became
+                        a
+                        key
+                        player in the ODI team and later made his Test debut in 2011. In 2013, Kohli reached the number
+                        one
+                        spot
+                        in the ICC rankings for ODI batsmen for the first time. During 2014 T20 World Cup, he set a
+                        record
+                        for
+                        the most runs scored in the tournament. In 2018, he achieved yet another milestone, becoming the
+                        world's
+                        top-ranked Test batsman, making him the only Indian cricketer to hold the number one spot in all
+                        three
+                        formats of the game. His form continued in 2019, when he became the first player to score 20,000
+                        international runs in a single decade. In 2021, Kohli made the decision to step down as the
+                        captain
+                        of
+                        the Indian national team for T20Is, following the T20 World Cup and in early 2022 he stepped
+                        down as
+                        the
+                        captain of the Test team as well.</p>
+                    <hr>
+
+                    <h2 id="early">Early life</h2>
+                    <p>
+                        Virat Kohli was born on 5 November 1988 in Delhi into a Punjabi Hindu family. His father, Prem
+                        Kohli,
+                        worked as a criminal lawyer and his mother, Saroj Kohli, served as a housewife. He has an older
+                        brother,
+                        Vikas, and an older sister, Bhawna.[6] Kohli's formative years were spent in the Uttam Nagar and
+                        commenced his early education at Vishal Bharti Public School.[7] According to his family, Kohli
+                        exhibited an early affinity for cricket as a mere three-year-old. He would pick up a cricket
+                        bat,
+                        display natural skill, and request his father to bowl to him.[8]
+                    </p>
+                    <p>In 1998, the West Delhi Cricket Academy (WCDA) was created and on 30 May of that year, Prem
+                        Kohli,
+                        espoused his younger son's fervour for cricket, assisted nine-year-old Kohli's aspirations and
+                        arranged
+                        for him to meet Rajkumar Sharma, who initially perceived him to be just another enthusiastic and
+                        determined young boy. However, two weeks later, Sharma was impressed by Kohli's accuracy and
+                        power
+                        in
+                        throwing.[9] Upon the suggestion of their neighbours, Kohli's father considered enrolling his
+                        son in
+                        a
+                        professional cricket academy, as they believed that his cricketing abilities merited more than
+                        just
+                        playing in the gully cricket.[10] Despite his abilities, he faced the setback of being unable to
+                        secure
+                        a place in the under-14 Delhi team, not due to a lack of merit but due to extraneous factors.
+                        Prem
+                        Kohli
+                        received offers to relocate his son to influential clubs, which would have ensured his
+                        selection,
+                        but he
+                        declined the proposals, as he was determined that Kohli should earn his recognition based on his
+                        own
+                        merit and overcome the system of nepotism and deceit prevalent in the Delhi and District Cricket
+                        Association (DDCA). Kohli persisted and eventually found his way into the under-15 Delhi
+                        team.[11]
+                        He
+                        received training at the academy while simultaneously participating in matches at the Sumeet
+                        Dogra
+                        Academy located at Vasundhara Enclave.[12] As per Sharma's recollection of Kohli's initial days
+                        at
+                        his
+                        academy, he exuded remarkable talent, making it arduous for the coach to curb his enthusiasm.
+                        Kohli
+                        remained prepared to bat at any position, and often, Sharma had to physically coerce him to
+                        leave
+                        the
+                        training sessions, as he was reluctant to depart.[13] In pursuit of furthering his cricketing
+                        career, he
+                        transitioned to Saviour Convent School during his ninth-grade education.[10] Kohli's ardent
+                        passion
+                        for
+                        cricket compelled him to travel long distances with his father to ensure that he never missed a
+                        match.
+                        With time, he diligently honed his skills and diversified his range of shots, commanding respect
+                        from
+                        the local bowlers.[14]</p>
+                    <hr>
+
+
+                    <h2 id="youth">Youth and domestic career</h2>
+                    <p>Kohli's junior cricket career kicked off in October 2002 at the Luhnu cricket ground in a Polly
+                        Umrigar
+                        match against the host state of Himachal Pradesh. In his debut match, Kohli managed to score a
+                        total
+                        of
+                        fifteen runs. His first half-century in national cricket came at Ferozeshah Kotla, where he
+                        scored
+                        70
+                        runs against Harayana.[18] By the end of the season, Kohli had amassed a total of 172 runs,
+                        emerging
+                        as
+                        the highest run-scorer for his side with an average of 34.40.[19] During the 2003–04 season,
+                        Kohli
+                        was
+                        appointed as the captain of the under-15 team. In his first match of the season, he scored 54
+                        runs
+                        in
+                        Delhi's victory over Himachal Pradesh. In the next fixture against Jammu and Kashmir, Kohli
+                        scored
+                        his
+                        maiden century with a score of 119 in a BCCI-conducted game. By the end of the season, he had
+                        amassed a
+                        total of 390 runs at an average of 78, which included two centuries.[20][21][a] Towards the end
+                        of
+                        2004,
+                        Kohli earned selection for the 2004–05 Vijay Merchant Trophy with the Delhi under-17 team. In
+                        the
+                        four
+                        matches that he played, Kohli accumulated a total of 470 runs, with his highest score being 251*
+                        runs.
+                        The team's coach, Ajit Chaudhary, lauded his performance and was particularly impressed with his
+                        temperament on the field.[22][23] In the 2005–06 season, Kohli commenced his innings with a
+                        score of
+                        227
+                        against Punjab. Following their victory over Uttar Pradesh in the quarter-finals, Delhi was
+                        scheduled to
+                        play against Baroda in the semi-finals. The team had high expectations from Kohli, who had
+                        promised
+                        his
+                        coach to finish the job. True to his word, Kohli went on to score 228 runs, leading Delhi to
+                        victory.
+                        The team later secured the tournament with a five-wicket win over Mumbai, where he contributed
+                        with
+                        a
+                        half-century in the first innings.[24] He ended as the highest run-scorer with a total of 757
+                        runs
+                        from
+                        7 matches, averaging 84.11.[25]</p>
+                    <p>On the 18th of February, 2006, Kohli made his debut in List A cricket, playing against Services
+                        in
+                        the
+                        Ranji One-Day Trophy, but he did not have the opportunity to bat during the match.[26] In 2006,
+                        Kohli
+                        had garnered enough attention to earn a spot in the state senior team. Subsequently, he made his
+                        first-class debut on the 23rd of November, 2006, during the opening match of the Ranji Trophy
+                        season
+                        against Tamil Nadu. However, his debut innings was a brief one, as he was dismissed after
+                        scoring
+                        ten
+                        runs.[27] In a sequence of three matches, Kohli failed to score a fifty, leading his coaches to
+                        provide
+                        him with counselling. In the subsequent match against former champions, Karnataka, Delhi found
+                        themselves trailing with a score of 130/5, with Kohli remaining unbeaten on 40 at the end of
+                        thep
+                        day's
+                        play. That very night, Kohli's father passed away at 3:54 a.m. Despite the heart-wrenching news,
+                        Kohli
+                        returned to the match and continued to bat and scored 90 runs before he was dismissed.[28] The
+                        team's
+                        coach, Chetan Chauhan was impressed by Kohli's resolute determination and unwavering attitude in
+                        the
+                        face of adversity. Venkatesh Prasad also lauded his crucial knock, which was executed in the
+                        midst
+                        of an
+                        emotional upheaval.[29] Following his dismissal, Kohli immediately attended his father's
+                        funeral.
+                        His
+                        innings, however, proved to be crucial for Delhi as they were able to avoid the follow-on. The
+                        team's
+                        captain, Mithun Manhas, praised Kohli for his performance, acknowledging its pivotal role in the
+                        team's
+                        success.[29]</p>
+                    <hr>
+                    <h2 id="carrer">International career</h3>
+                        <hr>
+                        <h4 class="subhead">2008–2009: Debut and maiden stint</h4>
+                        <p>In August 2008, Kohli was selected for inclusion in the ODl squad for the tour of Sri Lanka
+                            and
+                            the Champions Trophy in Pakistan. Prior to the Sri Lankan tour, Kohli had limited
+                            experience,
+                            with only eight List A matches under his belt.[45] So, his selection was considered a
+                            "surprise
+                            call-up".[46] During the Sri Lankan tour, as both first-choice openers Sachin Tendulkar and
+                            Virender Sehwag, were unable to play due to injury, Kohli was required to fill the role of
+                            makeshift opener throughout the series.[47] On 18 August 2008, Kohli made his international
+                            debut at the age of 19 in the first ODI of the tour, where he was dismissed for 12 runs,
+                            caught
+                            dead in front by an incutter from Nuwan Kulasekara.[48] However, in the fourth match of the
+                            series, Kohli achieved his inaugural half century in the ODl format, with a total of
+                            fifty-four
+                            runs scored.[49]
+
+                            Following the postponement of the Champions Trophy to 2009, Kohli was picked as a
+                            replacement
+                            for the injured Shikhar Dhawan in the India A squad for the unofficial Tests against
+                            Australia A
+                            in September 2008.[50] Despite limited opportunities, he managed to make an impact in the
+                            single
+                            innings that he participated in, scoring 49 runs.[51] In October 2008, Kohli participated in
+                            a
+                            four-day tour match against Australia as part of the Indian Board President's XI team. The
+                            match
+                            featured a formidable Australian bowling line-up that consisted of Brett Lee, Stuart Clark,
+                            Mitchell Johnson, Peter Siddle and Jason Krejza. Despite this, Kohli displayed his batting
+                            prowess by scoring 105 runs in the first innings and an unbeaten 16 runs in the second
+                            innings,
+                            demonstrating his ability to perform against high-level international competition.[52]
+
+                            In November 2008, Kohli was selected for inclusion in the squad for the home ODI series
+                            against
+                            England, due to the presence of established and experienced players such as Tendulkar and
+                            Sehwag, he was not given an opportunity to play in any of the matches.[53] In December 2008,
+                            Kohli was awarded a Grade D contract by the Board of Control for Cricket in India (BCCI) as
+                            part
+                            of the annual contract list for the Indian national team which entitled him to receive ₹1.5
+                            million (equivalent to ₹4.2 million or US$52,000 in 2023), A certain level of remuneration
+                            for
+                            representing the national team in various matches and events.[54] Despite being awarded a
+                            contract, in January, Kohli was dropped for the five-match ODl series against Sri Lanka in
+                            Sri
+                            Lanka.[55]
+
+                            In July–August 2009, Kohli was selected in the four-team Emerging Players Tournament, held
+                            in
+                            Australia. He was selected to open the innings for the Indian Emerging Players team in the
+                            tournament, and he went on to have a standout performance. Kohli finished as the
+                            tournament's
+                            leading run-scorer, with a total of 398 runs from seven matches, at an average of 66.33. He
+                            was
+                            particularly impressive in the final match, where he scored 104 runs off 102 balls against
+                            the
+                            South Africa Emerging Players team in Brisbane. His strong performance helped lead his team
+                            to a
+                            17-run victory and the tournament title.[56][57] At the conclusion of the tournament, Kris
+                            Srikkanth, the Chairman of the Indian national selection committee, expressed his admiration
+                            for
+                            Kohli's performance during the tournament. Srikkanth stated, "I must say, opener Virat Kohli
+                            was
+                            outstanding. Some of the shots he played spoke about his ability."[58] Kohli himself has
+                            stated
+                            that this tournament was a "turning point" in his career.[59]
+
+                            In August 2009, Kohli returned to the national team after recovering from a minor shoulder
+                            injury, replacing the injured Gautam Gambhir in the Indian squad for the tri-series in Sri
+                            Lanka.[60] He was also utilized as a middle order batsman in the 2009 ICC Champions Trophy
+                            due
+                            to an injury sustained by Yuvraj Singh.[61] In December of that same year, he was included
+                            in
+                            the team for home ODI series against Sri Lanka and scored 27[62] and 54 in the first two
+                            ODIs
+                            before making way for Yuvraj, who regained fitness for the third ODI. However, due to the
+                            reoccurrence of a finger injury, Yuvraj was ruled out indefinitely,[63] which led to Kohli's
+                            return to the team in the fourth ODI at Kolkata. In that match, Kohli scored his maiden ODI
+                            century–107 off 114 balls while sharing a 224-run partnership for the third wicket with
+                            Gambhir.
+                            As a result of this performance, India won by seven wickets and sealed the series
+                            3–1.[64][b]
+                        </p>
+                        <hr>
+                        <h2 id="franc">Franchise career</h2>
+                        <hr>
+                        <h4 class="subhead">Royal Challengers Bangalore</h4>
+                        <p>In 2007, the Board of Control for Cricket in India (BCCI) introduced the Indian Premier
+                            League
+                            (IPL), a franchise-based Twenty20 league. Among the franchises, Royal Challengers Bangalore,
+                            owned by Vijay Mallya at the time, selected Kohli to join their team for a sum of $30,000
+                            through a draft. This decision was influenced by Kohli's performance in the Under-19 World
+                            Cup
+                            held in Malaysia.[312]
+
+                            2008–2009: Early seasons
+                            In the inaugural match of the IPL, Kohli played in a high-stakes encounter against the
+                            Kolkata
+                            Knight Riders, where he fell early to an dismissal, contributing a single run to the team's
+                            pursuit of a target of 223 runs.[313] As the tournament progressed, Kohli found himself
+                            occupying a position in the middle order, but his impact in this role was relatively
+                            limited,
+                            prompting a strategic decision to reinstate him at the top order during the match against
+                            the
+                            Deccan Charges. It was in this role that he rediscovered his form and made contributions to
+                            his
+                            team's cause.[314] However, in the last two games of the tournament, Kohli had to sacrifice
+                            his
+                            preferred position in order to accommodate Misbah-ul-Haq, taking on the responsibility of
+                            batting in the middle order once again.[315] Concluding the season, Kohli's individual
+                            performance yielded a total of 165 runs, as Bangalore secured the seventh position on the
+                            points
+                            table.[316]
+
+
+                            Kohli during practice session, in 2009 IPL
+                            In the subsequent season, Kohli encountered a series of low scores in the initial two
+                            matches
+                            before bouncing back with a half-century in the third match against Deccan Chargers, in
+                            team's
+                            defeat.[317] Throughout the remainder of the season, Kohli displayed moderate performances
+                            or
+                            found limited opportunities to bat, owing to the dominance of top-order batsmen Jacques
+                            Kallis
+                            and Ross Taylor. This proved advantageous for the team, as they secured a spot in the
+                            playoffs.[318] In the semi-final against Chennai Super Kings, Kohli made crucial
+                            contributions
+                            to the team's successful chase, propelling Bangalore to the final.[319] In final against
+                            Deccan
+                            Charges, Kohli got stumped for 7 as Bangalore fell short by a margin of 8 runs, thus
+                            concluding
+                            the season as runners-up.[320]
+
+                            2010–2012: Rise, retention and realization
+                            In the 2010 season of the IPL, Kohli, assuming the role of vice-captain for the Bangalore,
+                            was
+                            positioned strategically in the middle order, he augmented Bangalore's batting depth and
+                            made
+                            notable contributions to the team's success. Notably, his contribution was observed during a
+                            victory over the Kings XI Punjab, where he played an instrumental role in concluding the
+                            match.[321] Furthermore, his cameos in away fixtures against the Chennai Super Kings[322]
+                            and
+                            Kings XI Punjab, forging valuable partnerships, particularly with Kevin Pietersen.[323]
+                            Kohli's
+                            standout performances came in futile encounter against the Deccan Chargers, where he scored
+                            58
+                            runs at a strike rate of 165.[324] As the season progressed, Kohli's fielding prowess also
+                            came
+                            to the fore, augmenting his contribution to the team's cause.[325] Upon securing a place in
+                            the
+                            playoffs, the Bangalore team confronted Mumbai Indians in the semi-final. Bangalore suffered
+                            a
+                            setback, succumbing to a defeat margin of 35 runs, as Kohli's contribution was limited to a
+                            tally of 7 runs in Bangalore's total, thereby ending Bangalore's campaign in the
+                            tournament.[326] In the Champions League Twenty20 held in September, the Bangalore team
+                            found
+                            themselves in an encounter against the Mumbai Indians. In pursuit of a target of 165 runs,
+                            Kohli
+                            played a steady innings, contributing 47 runs. The match came down to the final ball, which
+                            resulted in Kohli's dismissal, leading to Bangalore falling short by a margin of 2
+                            runs.[327] As
+                            a consequence, their upcoming game against the Lions became a virtual knockout match. In
+                            this
+                            must-win encounter, Kohli scored 49* runs, guiding his team to victory and securing a place
+                            in
+                            the semi-finals.[328] In the semi-final clash against the Chennai Super Kings, Bangalore
+                            faced a
+                            significant defeat of 52 runs(D/L method).
+
+                            Prior to the 2011 season of the IPL, Kohli was the sole player retained by Bangalore, for an
+                            amount of US$1.8 million.[329] In the opening match against the Kochi Tuskers Kerala, Kohli
+                            started his campaign with a score of 23 runs.[330] He registered his first half-century of
+                            the
+                            season against the Deccan Chargers, in pursuit of what was then the second-highest run
+                            chase,
+                            however Bangalore fell short by 33 runs.[331] After lacklustre start for Bangalore, winning
+                            two
+                            out of their first six matches, Kohli scored 56 runs in the next match against the Delhi
+                            Daredevils, and was awarded the player of the match for the first time in the
+                            tournament.[332]
+                            In the subsequent match, he continued his form against the Pune Warriors, where he claimed
+                            his
+                            second player of the match award. It was during this match that Kohli became the leading
+                            run-scorer of the season, donning the Orange cap for the short time, and he also surpassed
+                            the
+                            milestone of 1000 runs in the IPL.[333] During the mid-tournament, with regular captain
+                            Daniel
+                            Vettori sustaining an injury, Kohli had the opportunity to captain his side for the first
+                            time
+                            in an IPL match.[334] Team's coach, Ray Jennings praised Kohli for his efforts, acknowledged
+                            his
+                            potential to become the future captain not only of the franchise but also of the Indian
+                            national
+                            team.[335] The team ended their league stage campaign on a high note, defeating the Chennai
+                            Super Kings and securing the top position on the points table.[336] In the first qualifier,
+                            Kohli scored 70 of 44 balls. Setting a target of 175 runs, Bangalore failed to defend,
+                            resulting
+                            in knockout match against the Mumbai Indians.[337] In the knockout match, Bangalore
+                            triumphed
+                            over Mumbai, securing their place in the IPL final for the second time. In the final,
+                            chasing a
+                            target of 205 runs, Kohli contributed 35 runs to the team's total. However, Bangalore once
+                            again
+                            fell short in their pursuit of the title.[338] During the season, Kohli amassed 557 runs,
+                            including four half-centuries, and earning the distinction of being the second-highest
+                            run-scorer of the season, trailing West-Indian teammate Chris Gayle.[339] In the Champions
+                            League, Bangalore encountered a defeat in their first match against the Warriors. In the
+                            following match, Kohli got dismissed for a duck, leading to another loss for Bangalore. To
+                            secure a spot in the semi-finals, they needed to win their remaining two matches. In their
+                            last
+                            group-stage match against the Southern Redbacks, Kohli showcased his aggressive batting by
+                            scoring 70 runs off just 36 balls, propelling Bangalore into the semi-finals.[340] In the
+                            semi-final clash against the New South Wales Blues, Kohli once again played match-winning
+                            innings, scoring an unbeaten 84 runs.[341] However, in the final showdown against the Mumbai
+                            Indians, Bangalore suffered a defeat by a margin of 31 runs.
+
+                            In the 2012 season of the IPL, Kohli registered single-digit scores in the first two matches
+                            before bouncing back in the third match against the Chennai Super Kings, scoring 57
+                            runs.[342]
+                            He struggled to maintain consistency in subsequent matches, reaching a total of 165 runs by
+                            the
+                            ninth game with his strike-rate stood at 102.08, accompanied by an average of 18.[343] Kohli
+                            did
+                            manage to contribute 45 runs in the following match against the Kings XI Punjab to his
+                            team's
+                            cause.[344] As the season progressed, ineffectiveness of Bangalore's captain, Daniel
+                            Vettori, as
+                            a player led to a strategic alteration. Vettori made the decision to step down as captain
+                            and
+                            handed the leadership role to Kohli for the remaining matches of the season.[345] His
+                            breakthrough performance in the season came during the match against the Delhi Daredevils
+                            where
+                            he scored 73* and formed a record-breaking partnership of 203 runs with his teammate
+                            Gayle.[346]
+                            In their final match of the season, Bangalore faced the Deccan Chargers with the necessity
+                            of
+                            must-win to qualify for the playoffs. Kohli contributed 42 runs to the team's chase before
+                            being
+                            dismissed in the 16th over. His dismissal triggered a collapse in Bangalore's batting order,
+                            resulting in their eventual defeat and elimination from the tournament during the group
+                            stage.[347] During the season, Kohli accumulated a total of 364 runs, garnered over the
+                            course
+                            of 16 matches. He returned from the League with a sense of disillusionment with his own
+                            performance and was dissatisfied with the state of his game. He recognized the need for
+                            improvement and adaptation to the evolving dynamics of cricket.</p>
+                        <hr>
+
+                        <div id="footer">
+                            <footer id="foot">
+
+                                <ul>
+                                    <h3>Quick links</h3>
+                                    <li><a class="links" href="#">Home</li></a>
+                                    <li><a class="links" href="#">about</li></a>
+                                    <li><a class="links" href="#">FAQ</li></a>
+
+
+                                </ul>
+
+                                <ul>
+                                    <h3>connect us</h3>
+                                    <li><a class="links" href="#">linkdein</li></a>
+                                    <li><a class="links" href="#">instagram</li></a>
+                                    <li><a class="links" href="#">facbook</li></a>
+
+                                </ul>
+
+
+                            </footer>
+                        </div>
+                </div>
+
+
+                <div id="tabl">
+
+                    <img id="pic1"
+                        src="https://c8.alamy.com/comp/TADYRR/virat-kohli-indian-cricket-heroes-photocall-lords-cricket-ground-london-uk-23-may-2019-photo-by-richard-goldschmidt-TADYRR.jpg"
+                        alt="">
+
+                    <div>
+
+                        <h4 class="point">Personal information</h4>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Born:5 November 1988 (age 34)Delhi, India</li>
+                            <li>Nickname:Cheeku, King</li>
+                            <li>Height:5 ft 9 in (175 cm)</li>
+                            <li>Batting:Right-handed</li>
+                            <li>Role:Top-order batter</li>
+                            <li>Relations:Anushka Sharma (wife)</li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="point">International information</h4>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>National side:India (2008–present)</li>
+                            <li>Test debut (cap 269):20 June 2011 v West Indies</li>
+                            <li>ODI debut (cap 175):18 August 2008 v Sri Lanka</li>
+                            <li>T20I debut (cap 31):12 June 2010 v Zimbabwe</li>
+                            <li>Last T20I : 10 November 2022 v England</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="point">Career statistics</h4>
+                    </div>
+                    <div>
+                        <table id="tablee">
+                            <thead>
+
+                                <th>competation</th>
+                                <th>Test</th>
+                                <th>ODI</th>
+                                <th>T-20</th>
+                                <th>IPL</th>
+
+
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Matches</td>
+                                    <td>111</td>
+                                    <td>281</td>
+                                    <td>115</td>
+                                    <td>237</td>
+                                </tr>
+                                <tr>
+                                    <td>Runs scored</td>
+                                    <td>8,676</td>
+                                    <td>13,083</td>
+                                    <td>4,008</td>
+                                    <td>7,263</td>
+                                </tr>
+                                <tr>
+                                    <td>100s/50s</td>
+                                    <td>29/29</td>
+                                    <td>47/66</td>
+                                    <td>1/37</td>
+                                    <td>7/50</td>
+                                </tr>
+                                <tr>
+                                    <td>Top score</td>
+                                    <td>254*</td>
+                                    <td>183</td>
+                                    <td>122*</td>
+                                    <td>113</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <div class="tablee2">
+
+                    <div>
+                        <img id="picture"
+                            src="https://i0.wp.com/celebswiki.info/wp-content/uploads/2019/08/Virat-Kohli-Contact-Address-Phone-Number-House-Address-Email-Id.jpg"
+                            alt="">
+                        <h4 class="abb">about Virat Kohli</h4>
+                    </div>
+                    <div class="inter">
+                        <h4><a href="https://en.wikipedia.org/wiki/Cricket">Indian International cricketer</a></h4>
+                        <h5><a
+                                href="https://en.wikipedia.org/wiki/List_of_international_cricket_centuries_by_Virat_Kohli">International
+                                Centuries</a></h5>
+                        <hr>
+                    </div>
+                    <div>
+                        <h4 class="abb">Recognition</h4>
+                        <a href="https://en.wikipedia.org/wiki/ICC_Awards_of_the_Decade">Male Cricketer of Decade
+                            (2011-2020)</a>
+                        <a href="https://en.wikipedia.org/wiki/Arun_Jaitley_Stadium">Stand named after Virat
+                            KohliAnimation</a>
+                        <hr>
+                    </div>
+                    <div>
+                        <h4 class="abb">Player of the year</h4>
+                        <a id="abcs" href="https://en.wikipedia.org/wiki/2018_ICC_Awards">2017-2018</a>
+
+                    </div>
+                    <div>
+                        <h3 class="abb">International career</h3>
+                        <hr>
+                        <h4 class="inter">2008-2009: Debut and maiden stint</h4>
+                        <hr>
+                    </div>
+                    <div>
+                        <table id="ipl">
+
+                            <thead>
+                                <tr>
+                                    <th colspan="7" id="vk3">Virat Kohli's record in IPL matches</th>
+                                </tr>
+                                <tr>
+                                    <th>Matches</th>
+                                    <th>Runs</th>
+                                    <th>HS</th>
+                                    <th>100s</th>
+                                    <th>50s</th>
+                                    <th>Avg</th>
+                                    <th>SR</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>237</td>
+                                    <td>7263</td>
+                                    <td>113</td>
+                                    <td>7</td>
+                                    <td>50</td>
+                                    <td>37.25</td>
+                                    <td>103.8</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div id="home">
+                        <label for="but">Click here for Home page:</label>
+                        <a href="homepage.html"> <button type="submit" id="but">Homepage</button></a>
+                    </div>
+
+                    <img id="pix1" src="https://i.pinimg.com/736x/51/ab/f6/51abf6869cc2d4391aa411ad7c01bfef.jpg" alt="">
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+</body>
+
+</html>

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating app</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Montserrat:wght@300;400&family=Poppins:wght@400;700&family=Raleway&family=Ubuntu&family=Varela+Round&display=swap');
+
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .back {
+            display: flex;
+            background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL3JtNTk1ZGVzaWduLXJlbWl4LW0tMDA0LmpwZw.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #marq {
+            height: 50px;
+            background-color: rgb(34, 169, 111);
+            color: rgb(252, 228, 229);
+            font-size: 30px;
+
+
+
+
+        }
+
+        .header {
+            display: flex;
+            height: 50px;
+            font-size: larger;
+            font-family: math;
+            justify-content: space-between;
+
+
+        }
+
+        #home {
+            margin: 10px;
+            color: white;
+        }
+
+        #home:hover {
+            color: rgb(235, 181, 115);
+        }
+
+        #main {
+            margin: 10px;
+            color: white;
+        }
+
+        #main:hover {
+            color: rgb(235, 181, 115);
+        }
+
+        #services {
+            margin: 10px;
+            color: white;
+
+        }
+
+        #services:hover {
+            color: rgb(235, 181, 115);
+        }
+
+        .head {
+            height: 50px;
+            display: flex;
+            width: 500px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black;
+            background-color: rgb(196, 49, 93);
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            margin-left: 600px;
+            margin-bottom: 10px;
+        }
+
+        .head:hover {
+            font-size: larger;
+            background-color: brown;
+
+        }
+
+        .container {
+            display: grid;
+            border: 3px solid darkslateblue;
+            margin-left: 400px;
+            padding-bottom: 40px;
+            background-color: #e8dfde;
+            width: 80%;
+            height: 850px;
+            padding-left: 20px;
+        }
+
+        #h3 {
+            font-size: 25px;
+            color: rgb(193, 12, 12);
+            margin-bottom: 30px;
+            background-color: rgb(235, 235, 31);
+            border: 2px solid red;
+            width: 40%;
+            text-align: center;
+            margin-left: 230px;
+        }
+
+        #edu {
+            font-size: medium;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #btn {
+            border-radius: 10px;
+            background-color: rgb(237, 31, 35);
+            color: rgb(247, 240, 240);
+            margin-top: 20px;
+            margin-left: 200px;
+            padding: 20px;
+            font-family: sans-serif;
+
+        }
+
+        #btn:hover {
+            font-size: medium;
+            background-color: rgb(45, 31, 31);
+        }
+
+
+        #reset:hover {
+            font-size: large;
+            background-color: rgb(45, 31, 31);
+        }
+
+        #reset {
+            border-radius: 10px;
+            background-color: rgb(237, 31, 35);
+            color: rgb(243, 234, 234);
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 20px;
+            font-family: sans-serif;
+            font-size: medium;
+
+        }
+
+        #div-btn {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        input {
+            width: 30%;
+            height: 20px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 3px solid rgb(31, 29, 37);
+            border-radius: 4px;
+            background-color: rgb(242, 229, 225);
+            color: black;
+        }
+
+        input:focus {
+            border: 3px solid #151212;
+        }
+
+
+        .textarea {
+            width: 30%;
+            height: 45px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 3px solid rgb(31, 29, 37);
+            border-radius: 4px;
+            background-color: rgb(241, 230, 227);
+            resize: none;
+            margin-left: 10px;
+        }
+
+        #bank {
+            height: 30px;
+            width: 30%;
+            padding-bottom: 20px;
+            margin-left: 120px;
+        }
+
+        #education {
+            height: 25px;
+            width: 30%;
+            padding-bottom: 5px;
+            background-color: rgb(248, 234, 230);
+            border: 3px solid black;
+            border-radius: 4px;
+            margin-left: 200px;
+            margin-top: 10px;
+            color: #151212;
+            text-align: center;
+        }
+
+        #email {
+            margin-left: 70px;
+        }
+
+        #text {
+            margin-left: 31px;
+        }
+
+        #last {
+            margin-left: 25px;
+        }
+
+        .radio {
+
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            margin-right: 150px;
+        }
+
+        #add {
+            margin-left: 230px;
+            padding: 20px;
+        }
+
+        .checkb {
+
+            margin-left: 100px;
+        }
+
+        #ul {
+            margin: 5px;
+            display: flex;
+            justify-content: space-around;
+            height: 70px;
+            background-color: #feb9dc;
+            list-style: none;
+            padding-top: 80px;
+        }
+
+        ul li:hover {
+
+            font-size: large;
+            color: bisque;
+        }
+
+        #homep {
+            height: 30px;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        #butt {
+            border: 2px solid rgb(19, 16, 16);
+            background-color: crimson;
+            color: #151212;
+            font-weight: bolder;
+            padding: 5px;
+            border-radius: 4px;
+            margin-left: 10px;
+        }
+
+        #butt:hover {
+            font-size: medium;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="back">
+
+        <div>
+<div>
+            <header class="header">
+                <a id="home" href="#">Home</a>
+                <hr>
+                <a id="main" href="#">about</a>
+                <hr>
+                <a id="services" href="#">services</a>
+
+            </header>
+        </div>
+            
+
+            <div class="head">
+                <h1>Dating application</h1>
+            </div>
+
+
+            <form>
+                <div class="container">
+                    <div>
+                        <h3 id="h3">Personal Details </h3>
+                        <label for="text">First Name:</label>
+                        <input type="text" class="field" placeholder="First name " id="text" maxlength="20"
+                            minlength="10" required>
+                        <label id="last" for="text">Last Name:</label>
+                        <input type="text" placeholder="Last name " id="text" maxlength="20" minlength="10" required>
+                    </div>
+                    <div>
+                        <label for="phone">Mobile number:</label>
+                        <input type="number" placeholder="Mobile number" id="phone" maxlength="10" required>
+                    </div>
+                    <div>
+                        <label for=" email">Email:</label>
+                        <input type="email" placeholder="email" id="email" maxlength="30" required>
+                    </div>
+                    <div class="radio">
+                        <label>Gender:</label>
+                        <input type="radio" id="Male" name="Gender">
+                        <label for="Male">Male</label>
+                        <input type="radio" id="female" name="Gender">
+                        <label for="Female">Female</label>
+                        <input type="radio" id="Other" name="Gender">
+                        <label for="Female">other</label>
+
+                    </div>
+                    <div>
+                        <label for="date">Date of proposed outing:</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div>
+                        <label for="Check all that apply to you">Check all that apply to you: </label><br>
+                        <input class="checkb" class="checkb" type="checkbox" id="tattoos"
+                            name="Check all that apply to you">
+                        <label for="check">I have tattoos and/or piercings</label><br>
+                        <input class="checkb" type="checkbox" id="car" name="Check all that apply to you">
+                        <label for="check">I own a panel van or Ferrari </label><br>
+                        <input class="checkb" type="checkbox" id="work" name="Check all that apply to you">
+                        <label for="check">I work full-time </label><br>
+                        <input class="checkb" type="checkbox" id="older" name="Check all that apply to you">
+                        <label for="check">I am more than 2 years older than my daughter </label><br>
+                        <input class="checkb" type="checkbox" id="rich" name="Check all that apply to you">
+                        <label for="check">My parents are rich </label><br>
+                        <input class="checkb" type="checkbox" id="location" name="Check all that apply to you">
+                        <label for="check">Is the date at a private/public location </label><br>
+                    </div>
+                    <div>
+                        <label id="edu" for="education">Education: </label>
+
+                        <select name="education" id="education" placeholder="choose your education">
+                            <optgroup label="Engineering">
+                                <option value="B.tech">B.tech </option>
+                                <option value="M.tech">M.tech </option>
+                                <option value="BCA">BCA </option>
+                                <option value="MCA">MCA</option>
+                                <option value="B.Sc">B.Sc</option>
+                                <option value="M.sc">M.Sc </option>
+                            </optgroup>
+                            <optgroup label="Banking and Management">
+                                <option value="BBA">BBA </option>
+                                <option value="MBA">MBA</option>
+                                <option value="B.com">B.com </option>
+                                <option value="M.com">M.com</option>
+                            </optgroup>
+                            <optgroup label="Medical science">
+                                <option value="MBBS">MBBS </option>
+                                <option value="MS">MS </option>
+                                <option value="other">Others </option>
+                            </optgroup>
+                        </select>
+
+                    </div>
+                    <div>
+                        <label for="daughter">Why do you want to date my daughter: </label>
+                        <input class="textarea" type="text" maxlength="100" minlength="50" id="daughter" required
+                            placeholder="Enter your thoughts here">
+                    </div>
+                    <div>
+                        <label for="add">Address: </label>
+                        <input type="text" id="add" placeholder="Your address" required>
+                    </div>
+                    <div>
+                        <label for="bank">Upload Bank statement: </label>
+                        <input type="file" name="Upload Bank statement" id="bank" required>
+                    </div>
+                    <div id="div-btn">
+                        <input type="submit" id="btn">
+                        <input type="reset" id="reset">
+                    </div>
+                </div>
+        </div>
+        </form>
+
+
+    </div>
+    <div>
+        <footer id="foot">
+            <ul id="ul">
+                <li>Home</li>
+                <li>services</li>
+                <li>about us</li>
+                <li>contact us</li>
+
+            </ul>
+
+
+        </footer>
+        <div id="homep">
+            <label for="butt">Click here for Home page:</label>
+            <a href="homepage.html"> <button type="submit" id="butt">Homepage</button></a>
+        </div>
+    </div>
+</body>
+
+</html>

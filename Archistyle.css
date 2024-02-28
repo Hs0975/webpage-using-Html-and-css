@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    height: 1180px;
+    position: relative;
+}
+.nav{
+  
+    height: 50px;
+    width: 100%;
+    color: black;
+    border: 1px solid rgb(249, 239, 239);
+    box-shadow: 0 0 3px;
+    gap: 8px;
+    background-color: #F4F5FA;  
+    display: flex;
+    justify-content: space-between;
+
+}
+.Logo{
+padding-top: 7px;
+padding-left: 20px;
+cursor: pointer;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+
+a:active{
+    color: red;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.nav-li:hover{
+    background-color: rgb(168, 165, 165);
+    height: 25px;
+   
+}
+
+/* .background-img{
+
+position: absolute;
+height: 100vh;
+width: 500px;
+
+background-image: url("https://www.w3schools.com/w3images/architect.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+    .logo{
+        background-color:rgba(255, 255, 255, 0.5);
+        padding:20px;
+        text-align:center;
+        position: absolute;
+        top:50%;
+        right:50%;
+        transform:translate(50%, -50%);
+      }
+
+ */
+.background-img{
+height: 100vh;
+width: 99%;
+margin: 0 auto;
+background-image: url("https://www.w3schools.com/w3images/architect.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.logo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(254, 246, 246);
+    gap: 20px;
+    font-size: large;
+    
+}
+#head{
+    background-color: rgb(47, 38, 38);
+    padding: 10px 20px;
+    font-family: 'Kanit', sans-serif;
+    
+    
+}
+
+.center-div{
+    margin: 70px 30px;
+}
+
+.div-imges{
+   display: flex;
+   flex-direction: column;
+   
+   
+    
+}
+.row1{
+ display: flex;
+flex-direction: row;
+gap: 17px;
+
+
+
+}
+.row2{
+    display: flex;
+   flex-direction: row;
+  gap: 17px;
+ padding-top: 15px;
+  
+   }
+   .mid-div{
+    margin: 40px;
+   }
+
+   .img-2{
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+   }
+
+   .Descrip-div{
+    display: flex;
+   }
+
+   .btn{
+    width: 350px;
+    height: 30px;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+   }
+
+   .btn:hover{
+    background-color: rgb(143, 140, 140);
+     opacity: 0.7;
+   }
+.desc h2{
+margin-top: 15px;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+.desc h4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    }
+    .desc p{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        }
+
+        .contact-div{
+            margin: 20px 20px;
+        }
+.form{
+    margin: 20px 20px;
+}

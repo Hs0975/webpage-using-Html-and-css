@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    height: 100vh;
+    width: 100%;
+    background-color:#DAA520
+    
+  }
+  .aside{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  #img{
+   margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+  
+  }
+  .head{
+    margin-left: 43px;
+   height: 250px;
+    border: 2px solid black;  
+    background-color:brown;
+    color: white;
+    display: flex;
+  }
+  .main-content{
+    display: flex;
+   
+   
+  }
+  .headings{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   padding-top: 50px;
+    margin-left: 40px;
+  }
+  .h5{
+    margin-top: 20px;
+  }
+  .top-icon{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+  }
+  .music-btn1{
+    display:flex;
+    align-items: center;
+      justify-content: space-around;
+    margin: 50px -15px;
+   
+    
+  }
+  .material-icons{
+   padding: 0px 10px;
+  }
+    
+  .music-list{
+    height:350px ;
+    border:2px solid #282020;
+    margin-left:42px;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 15px;
+    background-color:#FAF9F6 ;
+    
+    
+  }
+  .li-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 100px;
+  }
+  .li-2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 70px;
+    width: 98%;
+    border: 2px solid whitesmoke;
+    background-color:#F5F5DC;
+    margin-left: 20px;
+    margin-right: 100px;
+   align-items: center;
+    padding-left: 10px;
+  }
+  .li-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 100px;
+  }
+  .li-4{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+     height: 70px;
+      width: 98%;
+      border: 2px solid whitesmoke;
+      background-color:#F5F5DC;
+    margin-left: 20px;
+    margin-right: 100px;
+     align-items: center;
+    padding-left: 10px;
+  }
+  
+  .music-list .li-4 a{
+    padding-right: 200px;
+  }
+  .music-list .li-2 a{
+    padding-right: 200px;
+  }
+  .music-list .li-1 a{
+    padding-right: 107px;
+  }
+  .music-list .li-3 a{
+    padding-right: 107px;
+  }
+  .music-list .li-3 p2{
+    padding-right: 72px;
+  }
+  
+  #li1-p2{
+    padding-left: 60px;
+  }
+  #li1-p3{
+    padding-right: 40px;
+  }
+  #li2-p2{
+    padding-left: 60px;
+  }
+  #li2-p3{
+    padding-left: 85px;
+  }
+  
+  #li3-p2{
+    padding-right: 60px;
+  }
+  #li3-p3{
+    padding-right: 55px;
+  }
+  
+  footer{
+     height: 107px;
+      border: 2px solid black;
+      background-color: brown;
+     display:flex;
+     margin-top: 15px;
+    
+  }
+  
+  .music-player-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .playing{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  #img2{
+    float: right;
+    width: 90px;
+    height: 80px;
+   margin-top: 15px;
+    margin-left: 10px;
+  }
+  
+  .bottm-btn{
+    display:flex;
+   align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 450px;
+   
+  }
+  
+  
